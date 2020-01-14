@@ -1,0 +1,11 @@
+spring:
+  #不同环境读取不同的配置文件
+  profiles:
+    active: dev
+  #指定日期格式化时区
+  jackson:
+    time-zone: GMT+8
+
+#mybatis配置
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
